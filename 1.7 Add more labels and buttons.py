@@ -22,10 +22,10 @@ button1.config(highlightbackground = "black",highlightthickness=3)
 button1.pack(pady=10)
 
 #button to upload photo
-button2=tk.Button(root,text="Upload Photo",width=20,height=2,bg="#B4A3D8",
-activebackground="grey",activeforeground="white")
-button2.config(highlightbackground = "black",highlightthickness=3)
-button2.pack(pady=10)
+#button2=tk.Button(root,text="Upload Photo",width=20,height=2,bg="#B4A3D8",
+#activebackground="grey",activeforeground="white")
+#button2.config(highlightbackground = "black",highlightthickness=3)
+#button2.pack(pady=10)
 
 #button to submit
 submit=tk.Button(root,text="Submit",width=20,height=2,bg="black",
