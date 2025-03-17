@@ -1,5 +1,5 @@
 """ Run and observe the code.
-Task1: Change the title of the code to Smart Attendance System
+Task1: Change the title of the window to Smart Attendance System
 Task2: Change the geometry to 500X300 """
 
 import tkinter as tk
