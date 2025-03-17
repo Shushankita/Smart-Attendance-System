@@ -1,3 +1,5 @@
+# Task: Change the state of the button from DISABLED to NORMAL / ACTIVE 
+
 import tkinter as tk
 
 root = tk.Tk()
@@ -13,9 +15,9 @@ label1.pack()
 
 button1 = tk.Button(root, text="Select Excel File",width=20,
 height=2,bg="#B4A3D8",activebackground="grey",
-activeforeground="white",state=tk.NORMAL)  #adding state of the button
+activeforeground="white",state=tk.DISABLED)  #adding state of the button
 
-#possible value for state: tk.NORMAL, tk.DISABLED, tk.ACTIVE, tk.HIDDEN
+#possible value for state: tk.NORMAL, tk.DISABLED, tk.ACTIVE
 
 button1.config(highlightbackground = "black",highlightthickness=3)
 button1.pack()
