@@ -1,3 +1,7 @@
+'''Run the code and observe the output
+Task1: On line 15 change the value of padx & pady to 10.
+'''
+
 import tkinter as tk
 
 root = tk.Tk()
