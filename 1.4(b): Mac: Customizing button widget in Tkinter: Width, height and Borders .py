@@ -13,7 +13,7 @@ label1 = tk.Label(root, text="Smart Attendance System", font=("Courier New", 24)
 label1.pack()
 
 button1 = tk.Button(root, text="Select Excel File",width=20,height=2,bg="#B4A3D8") #defining the width and height of the button in terms of pixels
-button1.config(highlightbackground = "black",highlightthickness=3)#adding border around the button and increasing it's thickness
+button1.config(highlightbackground = "blue",highlightthickness=3)#adding border around the button and increasing it's thickness
 button1.pack()
 
 root.mainloop()
