@@ -22,7 +22,7 @@ date_label = tk.Label(root, text="Select Date:",font=("Courier New", 10), bg="sk
 
 button1 = tk.Button(root, text="Select Excel File",width=20,height=2,
 bg="#B4A3D8",activebackground="grey",activeforeground="white")
-button1.config()
+button1.config(bd = 5,relief="solid")
 button1.pack(pady=10)
 
 #button to upload a photo
