@@ -8,7 +8,7 @@ root.title("Training Program")
 root.geometry("500x300")
 
 # Set the background colour to blue
-root.configure(bg='skyblue')
+root.config(bg='skyblue')
 
 
 label1 = tk.Label(root, text="Label1", font=("Courier New", 24), bg="blue", fg="white") #changing the font style and adding foreground color(fg) and background color(bg)
