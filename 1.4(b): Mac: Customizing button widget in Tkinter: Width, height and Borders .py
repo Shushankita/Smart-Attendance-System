@@ -1,3 +1,5 @@
+#Task 1: change the value of highlightbackground from blue to black and observe the output.
+
 import tkinter as tk
 
 root = tk.Tk()
