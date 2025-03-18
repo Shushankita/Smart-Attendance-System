@@ -1,5 +1,5 @@
 '''Observe the code and find out the reason why the button is not visible.
-Task1: Uncomment line19 to make the button visible.
+Task1: Uncomment line20 to make the button visible.
 Task2: Change the text on the button to "Select Excel File" '''
 import tkinter as tk
 
