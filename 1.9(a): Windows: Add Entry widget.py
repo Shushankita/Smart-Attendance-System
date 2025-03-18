@@ -23,12 +23,12 @@ date_entry = tk.Entry(root)
 
 button1 = tk.Button(root, text="Select Excel File",width=20,height=2,
 bg="#B4A3D8",activebackground="grey",activeforeground="white")
-button1.config(highlightbackground = "black",highlightthickness=3)
+button1.config(bd = 5,relief="solid")
 button1.pack(pady=10)
 
 button2=tk.Button(root,text="Upload Photo",width=20,height=2,bg="#B4A3D8",
 activebackground="grey",activeforeground="white")
-button2.config(highlightbackground = "black",highlightthickness=3)
+button2.config(bd = 5,relief="solid")
 button2.pack(pady=10)
 
 submit=tk.Button(root,text="Submit",width=20,height=2,bg="black",
