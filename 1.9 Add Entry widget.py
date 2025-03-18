@@ -7,7 +7,7 @@ root = tk.Tk()
 root.title("Training Program")
 root.geometry("500x300")
 
-root.config(bg='skyblue')
+root.configure(bg='skyblue')
 
 
 label1 = tk.Label(root, text="Smart Attendance System",
