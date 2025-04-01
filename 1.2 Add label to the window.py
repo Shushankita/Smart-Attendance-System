@@ -1,5 +1,6 @@
 '''Task1: Change the text on the label to Smart Attendance System
-Task2: Select any other font style from lines 16 to 23. Remove all the other font styles from the code.'''
+Task2: Select any other font style from lines 16 to 23. Remove all the other font styles from the code.
+Task 3: The students must change the value of bg in line 15 to blue. '''
 
 import tkinter as tk
 
@@ -11,7 +12,7 @@ root.geometry("500x300")
 root.config(bg='skyblue')
 
 
-label1 = tk.Label(root, text="Label1", font=("Courier New", 24), bg="blue", fg="white") #changing the font style and adding foreground color(fg) and background color(bg)
+label1 = tk.Label(root, text="Label1", font=("Courier New", 24), bg="black", fg="white") #changing the font style and adding foreground color(fg) and background color(bg)
 """List of font-style available
 1. Arial
 2. Times New Roman
