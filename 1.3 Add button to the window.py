@@ -1,5 +1,5 @@
 '''Observe the code and find out the reason why the button is not visible.
-Task1: Uncomment line20 to make the button visible.
+Task1: Uncomment line19 to make the button visible.
 Task2: Change the text on the button to "Select Excel File" '''
 import tkinter as tk
 
@@ -15,8 +15,7 @@ label1.pack()
  #defining the width and height of the button in terms of pixels
 button1 = tk.Button(root, text="Button1",width=20,height=2,bg="#B4A3D8")
 
-
-#adding a border around the button and increasing its thickness
+#uncomment the below line to make the button visible
 #button1.pack()
 
 root.mainloop()
