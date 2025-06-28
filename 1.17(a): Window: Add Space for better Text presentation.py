@@ -1,8 +1,10 @@
 # on line 44 spacing1 adds extra space above each line of text.
 #on line 44 spacing2 adds extra space between wrapped lines of text.
 #on line 44 spacing3 adds extra space below each line of text.
+#we need to disable so that the user can't write in it.
+#possible values for state are "normal" and "disabled"
 
-#Task : Change the spacing value and observe the change on line 44.
+#Task : Change the spacing value and observe the change on line 46.
 
 import tkinter as tk
 from tkcalendar import DateEntry
@@ -41,7 +43,7 @@ bg="#B4A3D8",activebackground="grey",activeforeground="white")
 button2.config(highlightbackground = "black",highlightthickness=3)
 button2.pack(pady=10)
 
-text_widget = tk.Text(root,width=50,height=10,spacing1=10,spacing2=10,spacing3=10)
+text_widget = tk.Text(root,width=50,height=10,spacing1=10,spacing2=10,spacing3=10,state="disabled")
 text_widget.pack(pady=10)
 
 submit=tk.Button(root,text="Submit",width=20,height=2,bg="black",
