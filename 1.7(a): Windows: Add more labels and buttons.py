@@ -1,4 +1,3 @@
-# Session 3
 # Task 1: Make the date_label visible.
 # Task 2: Add another button by name button2 with text as 'Upload Photo' similar to button2.
 # Task 3: Add a submit button with the following properties:
