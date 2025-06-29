@@ -2,7 +2,7 @@
 # Sets the width of the Text widget to approximately 50 characters.
 # That means the widget can show up to 50 characters horizontally before
 # wrapping text (if wrapping is enabled).
-# On line 48height=10
+# On line 48 height=10
 # Sets the height to 10 lines of text.
 # That means the widget can display 10 rows of text vertically without scrolling.
 
