@@ -6,7 +6,7 @@
 # Sets the height to 10 lines of text.
 # That means the widget can display 10 rows of text vertically without scrolling.
 
-#Task : change the width and height on line 47 and observe the change.
+#Task : Change the width and height on line 47 and observe the change.
 
 import tkinter as tk
 from tkcalendar import DateEntry
@@ -36,12 +36,12 @@ date_var.trace('w', update)
 
 button1 = tk.Button(root, text="Select Excel File",width=20,
 height=2,bg="#B4A3D8",activebackground="grey",activeforeground="white")
-button1.config(highlightbackground = "black",highlightthickness=3)
+button1.config(bd = 5,relief="solid")
 button1.pack(pady=10)
 
 button2=tk.Button(root,text="Upload Photo",width=20,height=2,
 bg="#B4A3D8",activebackground="grey",activeforeground="white")
-button2.config(highlightbackground = "black",highlightthickness=3)
+button2.config(bd = 5,relief="solid")
 button2.pack(pady=10)
 
 text_widget = tk.Text(root,width=50,height=10) #adding width and height of the text field
