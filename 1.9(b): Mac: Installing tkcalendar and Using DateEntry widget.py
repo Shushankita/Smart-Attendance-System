@@ -1,6 +1,17 @@
-# Session 4
+# tkcalendar is a third-party Python module that provides calendar and date picker 
+# widgets for use with Tkinter GUI applications.
+# It helps users to select a date from a calendar interface instead of manually typing it in an Entry box.
+# DateEntry
+# A drop-down calendar widget.
+# Works like a Tkinter Entry, but clicking on it opens a small calendar to choose a date.
+# Useful for form inputs like birthdates, attendance dates, deadlines, etc.
+
+# Calendar
+# A full calendar view where users can navigate and select a date.
+# More visual and interactive than DateEntry.
+
 # Task 1: pip install tkcalendar in the terminal window
-# Task 2: Change the configuration of DateEntry widget
+# Task 2: Change the configuration of the DateEntry widget
 
 import tkinter as tk
 from tkcalendar import DateEntry #importing DateEntry widget from tkcalendar module
