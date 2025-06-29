@@ -1,7 +1,8 @@
 #In this code, interactivity is added to the button using activebackground and activeforeground
 #options.
 #These settings change the button's appearance while it is being clicked by the user,
-#making the UI feel more responsive and dynamic
+#making the UI feel more responsive and dynam
+
 
 # Task: Change the button configuration when clicked to a different color.
 
