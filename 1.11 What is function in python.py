@@ -4,7 +4,7 @@
 
 # Observe lines no. 13 and 14, same function called with different values.
 
-#Task 1: Uncomment lines 15 & 16 and fix the error.
+#Task 1: Uncomment lines 16 & 17 and fix the error.
 #Task 2: Call function subtraction with 156 and 100
 
 def addition(a, b):
